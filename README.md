@@ -19,15 +19,15 @@ To experiment, open at least 3 terminals sessions.
 ```` 
 
 ````
-	TERLMINAL 2
-	telnet localhost 1234 
+  TERLMINAL 2
+  telnet localhost 1234 
  
 ```` 
 
 
 ````
-	TERLMINAL 3
-	telnet localhost 1234 
+  TERLMINAL 3
+  telnet localhost 1234 
  
 ```` 
 
