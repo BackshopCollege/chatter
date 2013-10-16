@@ -5,7 +5,7 @@ Just to practice Ruby IO Sockets.
 
 My intention is experiemnt (SELECT) Asynchronous blocking I/O in Ruby ( Non-Blocking I/O with Blocking Notification).
 
-Instead of Thread/Process per Connection I used the SELECT model that delegates my intention to kernel and wake me up when anything happen :D
+Instead of Thread/Process per Connection I used the SELECT model that delegates my intention to kernel notify me when my intentions is ready :D
 
 To experiment, open at least 3 terminals sessions.
 
