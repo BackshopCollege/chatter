@@ -1,4 +1,4 @@
-# Chatter ( My mistake the repository has TTT instead of TT )
+# Chatter
 ###### #irresponsibleruby
 
 Just to practice Ruby IO Sockets.  
