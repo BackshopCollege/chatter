@@ -1,6 +1,6 @@
 #USER <username>
 #LIST
-#PVT <username>
+#PVT <username> <message>
 #BYE
 
 class Protocol
@@ -18,7 +18,7 @@ class Protocol
       when "BYE"
         [:bye, {}]
       else
-        [:data, {data: chunk}]
+        [:data, {data: chunk.join(" ")}]
     end
   end
 

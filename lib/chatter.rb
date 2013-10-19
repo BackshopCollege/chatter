@@ -47,12 +47,12 @@ class Chatter
     end
 
     socket.on(:data) do |chunk|
-      send("User ##{@usernames[socket.id]} said: #{chunk[:data]}")
+      send("User ##{@usernames[socket.id]} said: #{chunk[:data]}\n")
     end
 
     socket.on(:close) do
       @clients.delete(socket)
-      send("User ##{@usernames[socket.id]} left")
+      send("User ##{@usernames[socket.id]} left\n")
     end
 
     @clients << socket
