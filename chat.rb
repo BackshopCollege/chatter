@@ -1,5 +1,8 @@
 $: << "lib"
 
+require 'pry'
+
+require 'protocol'
 require 'socket'
 require 'emitter'
 require 'stream'

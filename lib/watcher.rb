@@ -32,14 +32,14 @@ class IOWatcher
 
   def tick
     r, w = IO.select(@streams, @streams)
-   
+
     r.each do | stream |
       stream.handle_read
     end
-   
+
     w.each do |stream|
       stream.handle_write
     end
-   
+
   end
 end

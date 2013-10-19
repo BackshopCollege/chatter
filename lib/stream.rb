@@ -7,14 +7,22 @@ class Stream
   end
 
   def to_io; @io ; end
-  
+
+  def id
+    @io.fileno
+  end
+
   def << (chunk)
     @buffer << chunk
   end
 
   def handle_read
     chunk = @io.read_nonblock(4096)
-    emit(:data, chunk)
+
+    action, data = Protocol.parse(chunk)
+
+    emit(action, data)
+
     rescue IO::WaitReadable
     rescue EOFError, Errno::ECONNRESET
       emit(:close)
