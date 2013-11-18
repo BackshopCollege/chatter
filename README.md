@@ -1,7 +1,8 @@
 # Chatter
 ###### #irresponsibleruby
 
-Experiment being developed in the context of BackshopCollege while learning ruby and many other things with tdantas.
+Experiment being developed in the context of [BackshopCollege](https://github.com/BackshopCollege) while learning ruby
+and many other things with [tdantas](https://www.github.com/tdantas).
 
 Just to practice Ruby IO Sockets.  
 
