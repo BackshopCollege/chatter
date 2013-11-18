@@ -1,6 +1,8 @@
 # Chatter
 ###### #irresponsibleruby
 
+Experiment being developed in the context of BackshopCollege while learning ruby and many other things with tdantas.
+
 Just to practice Ruby IO Sockets.  
 
 My intention is experiemnt (SELECT) Asynchronous blocking I/O in Ruby ( Non-Blocking I/O with Blocking Notification).
